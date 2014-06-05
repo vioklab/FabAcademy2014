@@ -1,0 +1,45 @@
+[Eagle]
+Version="06 05 00"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_Arduino-AVR.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_Arduino-Various.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_FAB_Hello.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_SparkFun.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_adafruit.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_altera.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_atmega8.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_atmel.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_attiny13.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_attiny24_44_84.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_battery.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_fab.lbr"
+UsedLibrary="/Applications/EAGLE-6.5.0/lbr/01_ng.lbr"
+UsedLibrary="libs/01_ng.lbr"
+UsedLibrary="libs/01_fab.lbr"
+UsedLibrary="libs/01_battery.lbr"
+UsedLibrary="libs/01_attiny24_44_84.lbr"
+UsedLibrary="libs/01_attiny13.lbr"
+UsedLibrary="libs/01_atmel.lbr"
+UsedLibrary="libs/01_atmega8.lbr"
+UsedLibrary="libs/01_altera.lbr"
+UsedLibrary="libs/01_adafruit.lbr"
+UsedLibrary="libs/01_SparkFun.lbr"
+UsedLibrary="libs/01_FAB_Hello.lbr"
+UsedLibrary="libs/01_Arduino-Various.lbr"
+UsedLibrary="libs/01_Arduino-AVR.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="532 22 1279 431"
+State=2
+Number=0
+
+[Desktop]
+Screen="3200 920"
+Window="Win_1"
