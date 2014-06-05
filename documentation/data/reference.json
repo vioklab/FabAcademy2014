@@ -1,0 +1,109 @@
+{
+  "reference" : [
+    {
+      "reference" : "Suckerpunchdaily",
+      "title" : "Digital tectonics: robotic fabrication",
+      "description" : "Exagon forms",
+      "tags" : [
+        "digital fabrication",
+        "cnc"
+      ],
+      "url" : "http://www.suckerpunchdaily.com/2010/03/29/digital-tectonics-robotic-fabrication/",
+      "image" : "http://www.suckerpunchdaily.com/wp-content/uploads/2010/03/robot-fabrication.jpg",
+      "video" : ""
+    },
+    {
+      "reference" : "Ming 3d",
+      "title" : "Digital Representation of Cincinnati",
+      "description" : "Prior to this course I had brief experience with digital fabrication with Maya and PowerMill software. I found there is a tremendous possibilities in this manner of design. DAAP has great facility to offer us to explore in digital fabrication, but we didn’t get to exposed to “this part of world” that much earlier, mostly it was occupied by Industrial Design projects.",
+      "tags" : [
+        "digital fabrication",
+        "cnc"
+      ],
+      "url" : "http://ming3d.com/wordpress/?p=185",
+      "image" : "http://ming3d.com/wordpress/wp-content/uploads/2010/12/b_digi_door08.jpg",
+      "video" : ""
+    },
+    {
+      "reference" : "Disney Research",
+      "title" : "Botanicus Interacticus: Interactive Plant Technology",
+      "description" : "Botanicus Interacticus explores new modes of interaction between humans and living plants by instrumenting them with rich touch and gesture sensitivity.",
+      "tags" : [
+        "botanics",
+        "plants",
+        "interaction design"
+      ],
+      "url" : "http://www.disneyresearch.com/project/botanicus-interacticus-interactive-plant-technology/",
+      "image" : "http://disneyresearch.com/wp-content/uploads/2012/10/botanicus-interacticus-03.png",
+      "video" : ""
+    },
+    {
+      "reference" : "Superflux",
+      "title" : "'Domestic Gubbins'",
+      "description" : "Developing our research from 'Domestic Gubbins', these were a set of smart concept devices designed to embed 'energy autonomy' within the home.",
+      "tags" : [
+        "energy",
+        "sugar",
+        "interaction design"
+      ],
+      "url" : "http://superflux.in/work/energyautonomy",
+      "image" : "http://superflux.in/sites/default/files/imagecache/620_width/sugar_goodpic.jpg",
+      "video" : "http://vimeo.com/2936437"
+    },
+    {
+      "reference" : "Parrot",
+      "title" : "Flower Power",
+      "description" : "Monitoring Plants",
+      "tags" : [
+        "product",
+        "plants",
+        "sensor"
+      ],
+      "url" : "http://www.parrot.com/flowerpower/us/",
+      "image" : "http://dynamicinventions.com/wp-content/uploads/2013/04/parrot-flower-power.jpeg",
+      "video" : ""
+    },
+    {
+      "reference" : "John Combs",
+      "title" : "AquaMat",
+      "description" : "Potable water drawn from the air",
+      "tags" : [
+        "biomimicry",
+        "beetle",
+        "fog",
+        "harvesting",
+        "catching",
+        "water"
+      ],
+      "url" : "http://www.coroflot.com/johncombs/aquamat",
+      "image" : "http://s3images.coroflot.com/user_files/individual_files/original_342188_a4YnbZggND5kf5YL1pB4EKOU6.jpg",
+      "video" : ""
+    },
+    {
+      "reference" : "Vlad Tenu",
+      "title" : "Synthetic Nature",
+      "description" : "<p style=\"text-align: justify;\">London-based architect <a title=\"Vlad Tenu\" href=\"http://www.vladtenu.com/\" target=\"_blank\"><strong>Vlad Tenu</strong></a>’s <strong>Synthetic Nature</strong> is a collection of prototypes conceived and created through holistic architectural design research into the genesis of form and space, currently on show at<strong> <a href=\"http://www.surface-gallery.com/\" target=\"_blank\">Surface Gallery London</a></strong>.</p>",
+      "tags" : [
+        "biomimicry",
+        "nature",
+        "design"
+      ],
+      "url" : "http://www.urdesign.it/index.php/2013/09/30/synthetic-nature-by-vlad-tenu/",
+      "image" : "http://www.urdesign.it/wp-content/uploads/2013/09/1-synthetic-nature-by-vlad-tenu.jpg",
+      "video" : ""
+    },
+    {
+      "reference" : "Designboom",
+      "title" : "the first solar-powered robotic raven takes flight",
+      "description" : "A team of professors and students at the university of maryland have created the first robotic bird that that flies on batteries charged by on board solar cells. ‘robo raven III’ has sufficiently large...",
+      "tags" : [
+        "robotics",
+        "energy",
+        "bird"
+      ],
+      "url" : "http://www.designboom.com/technology/the-first-solar-powered-robotic-raven-takes-flight-10-24-2013/",
+      "image" : "http://www.designboom.com/wp-content/uploads/2013/10/solar-powered-robotic-bird-created-by-university-of-maryland-designboom-01.jpg",
+      "video" : ""
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+    "schedules": [
+        {
+            "id": "final-project-proposal",
+            "title": "Final Project proposal",
+            "week":1,
+            "date":"29/01 - 05/02, 2014",
+            "lead":"Digital fabrication, nature, art, science, technology, electronics, networking, datavisualization, internet of things and, what else?",
+            "description":"Some aspects of the aspects I want to mix an learn of transforming things from as bits to atoms and vice versa."
+        },
+        {
+            "id": "computer-aided-design",
+            "title": "Computer-Aided Design",
+            "week":2
+        },
+        {
+            "id": "computer-controlled-cutting",
+            "title": "Computer-Controlled Cutting",
+            "week":3
+        },
+        {
+            "id": "electronics-production",
+            "title": "Electronics Production",
+            "week":4
+        },
+        {
+            "id": "3d-scanning-and-printing",
+            "title": "3D Scanning and Printing",
+            "week":5,
+            "date": "26/02 - 05/03, 2014"
+        },
+        {
+            "id": "electronics-design",
+            "title": "Electronics Design",
+            "week":6,
+            "date": "05/03 - 12/03, 2014"
+        },
+        {
+            "id": "computer-controlled-machining",
+            "title": "Computer-Controlled Machining",
+            "week":7,
+            "date": "12/03 - 19/03, 2014"
+        },
+        {
+            "id": "embedded-programming",
+            "title": "Embedded Programming",
+            "week":8,
+            "date": "19/03 - 26/03, 2014"
+        },
+        {
+            "id": "molding-casting",
+            "title": "Molding and Casting",
+            "week":9,
+            "date": "26/03 - 02/04, 2014"
+        },
+        {
+            "id": "input-devices",
+            "title": "Input Devices",
+            "week":10,
+            "date": "02/03 - 09/04, 2014"
+        },
+        {
+            "id": "composites",
+            "title": "Composites",
+            "week":11,
+            "date": "09/03 - 16/04, 2014"
+        },
+        {
+            "id": "output-devices",
+            "title": "Output Devices",
+            "week":12,
+            "date": "16/04 - 23/04, 2014"
+        },
+        {
+            "id": "networking-communications",
+            "title": "Networking and Communications",
+            "week":13,
+            "date": "23/04 - 30/04, 2014"
+        },
+        {
+            "id": "mechanical-design",
+            "title": "Mechanical Design",
+            "week":14,
+            "date": "30/04 - 07/05, 2014"
+        },
+        {
+            "id": "interface-and-application-programming",
+            "title": "Interface and Application Programming",
+            "week":15,
+            "date": "07/05 - 14/05, 2014"
+        },
+        {
+            "id": "applications-and-implications",
+            "title": "Applications and implications",
+            "week":16,
+            "date": "14/05 - 21/05, 2014"
+        },
+        {
+            "id": "invention-intellectual-property-income",
+            "title": "Invention, intellectual property, and income ",
+            "week":17,
+            "date": "21/05 - 28/05, 2014"
+        },
+        {
+            "id": "project-development",
+            "title": "Project-Development",
+            "week":19,
+            "date": "28/05 - 04/06, 2014"
+        },
+        {
+            "id": "final-presentation",
+            "title": "Final Presentation",
+            "date": "04/06, 2014"
+        }
+    ]
+}
