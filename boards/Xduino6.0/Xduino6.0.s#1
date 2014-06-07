@@ -3045,7 +3045,8 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="CRYSTAL" library="01_ng" deviceset="CRYSTAL" device="CS10" value="16MHz"/>
 <part name="J1" library="01_fab" deviceset="JACK" device=".65MM"/>
 <part name="JP5" library="01_SparkFun" deviceset="M04" device="PTH"/>
-<part name="JP7" library="01_SparkFun" deviceset="M02" device="PTH"/>
+<part name="JP6" library="01_SparkFun" deviceset="M02" device="PTH"/>
+<part name="GND3" library="01_FAB_Hello" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3110,7 +3111,8 @@ BUTTON</text>
 <instance part="CRYSTAL" gate="G$1" x="93.98" y="99.06" rot="R90"/>
 <instance part="J1" gate="G$1" x="38.1" y="17.78" rot="R180"/>
 <instance part="JP5" gate="G$1" x="162.56" y="2.54"/>
-<instance part="JP7" gate="G$1" x="139.7" y="25.4"/>
+<instance part="JP6" gate="G$1" x="134.62" y="17.78" rot="R180"/>
+<instance part="GND3" gate="1" x="121.92" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -3537,6 +3539,12 @@ BUTTON</text>
 <wire x1="180.34" y1="7.62" x2="180.34" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="2"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="127" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="15.24" x2="121.92" y2="10.16" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="A6" class="0">
 <segment>
@@ -3630,9 +3638,9 @@ BUTTON</text>
 </net>
 <net name="N$20" class="0">
 <segment>
-<wire x1="12.7" y1="-17.78" x2="106.68" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="-17.78" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-17.78" x2="147.32" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="-17.78" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="38.1" x2="12.7" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3652,13 +3660,6 @@ BUTTON</text>
 <wire x1="12.7" y1="43.18" x2="12.7" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EXTVOL" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="SHUNT"/>
-<wire x1="33.02" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<label x="25.4" y="15.24" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$23" class="0">
 <segment>
 <wire x1="152.4" y1="38.1" x2="195.58" y2="38.1" width="0.1524" layer="91"/>
@@ -3673,6 +3674,18 @@ BUTTON</text>
 <wire x1="254" y1="38.1" x2="254" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="254" y1="-17.78" x2="200.66" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-17.78" x2="200.66" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EXTVCC" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="127" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
+<label x="116.84" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="SHUNT"/>
+<wire x1="33.02" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
+<label x="25.4" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

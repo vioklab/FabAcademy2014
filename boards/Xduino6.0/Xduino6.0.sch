@@ -3594,17 +3594,6 @@ BUTTON</text>
 <label x="170.18" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="IN"/>
-<wire x1="53.34" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="C5" gate="1" pin="2"/>
-<wire x1="45.72" y1="10.16" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
-<junction x="45.72" y="15.24"/>
-<pinref part="J1" gate="G$1" pin="PIN"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
@@ -3683,9 +3672,14 @@ BUTTON</text>
 <label x="116.84" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="SHUNT"/>
-<wire x1="33.02" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<label x="25.4" y="15.24" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="IN"/>
+<wire x1="53.34" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="C5" gate="1" pin="2"/>
+<wire x1="45.72" y1="10.16" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
+<junction x="45.72" y="15.24"/>
+<pinref part="J1" gate="G$1" pin="PIN"/>
+<label x="43.18" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

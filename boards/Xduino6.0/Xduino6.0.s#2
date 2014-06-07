@@ -3044,7 +3044,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND14" library="01_FAB_Hello" deviceset="GND" device=""/>
 <part name="CRYSTAL" library="01_ng" deviceset="CRYSTAL" device="CS10" value="16MHz"/>
 <part name="J1" library="01_fab" deviceset="JACK" device=".65MM"/>
-<part name="GND8" library="01_FAB_Hello" deviceset="GND" device=""/>
 <part name="JP5" library="01_SparkFun" deviceset="M04" device="PTH"/>
 <part name="JP7" library="01_SparkFun" deviceset="M02" device="PTH"/>
 </parts>
@@ -3110,7 +3109,6 @@ BUTTON</text>
 <instance part="GND14" gate="1" x="20.32" y="7.62"/>
 <instance part="CRYSTAL" gate="G$1" x="93.98" y="99.06" rot="R90"/>
 <instance part="J1" gate="G$1" x="38.1" y="17.78" rot="R180"/>
-<instance part="GND8" gate="1" x="132.08" y="-7.62"/>
 <instance part="JP5" gate="G$1" x="162.56" y="2.54"/>
 <instance part="JP7" gate="G$1" x="139.7" y="25.4"/>
 </instances>
@@ -3515,10 +3513,6 @@ BUTTON</text>
 <wire x1="20.32" y1="10.16" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="CONTACT"/>
 <wire x1="20.32" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="132.08" y1="7.62" x2="132.08" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
